@@ -2,5 +2,5 @@
 const currentUser = "john wick";
 
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
-const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()}!`;
+const excitedWelcomeMessage = `${welcomeMessage.toUpperCase()}, ${currentUser.toUpperCase()}!`;
 const shortGreeting = `Welcome, ${currentUser[0]}!`;
